@@ -1,8 +1,11 @@
+import ColorsList from "./components/ColorsList";
+import Form from "./components/Form";
 function App() {
   return (
-    <>
-      <h1>coolors</h1>
-    </>
+    <main>
+      <Form />
+      <ColorsList />
+    </main>
   );
 }
 
